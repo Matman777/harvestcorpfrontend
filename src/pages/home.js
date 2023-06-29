@@ -1,7 +1,9 @@
 export default function Home() {
-    return (<><div className="home">
-        <h1>Bienvenue sur l'annuaire de HarvestCorp</h1>
-    </div>
-        <div>Entrez un nom, service ou un site pour contacter un collaborateur:</div>
-    </>)
+    return (
+        <>
+            <section className="home"></section>
+            <h1 className="welcome">Bienvenue sur l'annuaire de HarvestCorp</h1>
+            <div className="intro">Rechercher un collaborateur par son nom, service ou site:</div>
+        </>
+    );
 }
